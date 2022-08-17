@@ -1,0 +1,106 @@
+header {
+  height: 115px;
+  background-color: #f8f9fd;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+}
+.site-branding {
+  width: 142px;
+}
+.logo-brand {
+  overflow: hidden;
+  width: 142px;
+  transition: width 0.3s ease-in-out;
+}
+.searchArea {
+  position: absolute;
+  right: 30%;
+  display: none;
+}
+.search-input {
+  width: 520px;
+  height: 52px;
+  border: 1px solid #e1eaf9;
+  background-color: #fff;
+  border-radius: 16px;
+  padding-right: 46px;
+  padding-left: 20px;
+  color: #a0a4bc;
+  font-size: 14px;
+}
+.searchArea__button {
+  position: absolute;
+  top: 28%;
+  right: 17px;
+  border: 0;
+  background-color: transparent;
+}
+.icon-header ul{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-header ul li{
+  padding: 0 8px;
+  cursor: pointer;
+}
+.icon-header ul li i{
+  font-size: 18px;
+  color: #a0a4bc;
+}
+.login-modal{
+  margin: 0;
+  right: 12%;
+  top: 20%;
+}
+.login-modal .modal-body{
+  display: flex;
+  justify-content: space-around;
+}
+.login-modal > .modal-content{
+  width: 1019px;
+  height: 519px;
+}
+.login-modal .modal-header{
+  justify-content: end;
+  border: none;
+}
+.login-modal .modal-header .btn-close{
+  margin: 0;
+}
+.login-modal-right{
+  width: 50%;
+  padding: 0 16px;
+}
+.login-modal-right lable{
+  font-size: 14px;
+}
+.login-modal-right input[type=text],.login-modal-right input[type=password]{
+  width: 412px;
+  height: 54px;
+  font-size: 14px;
+  border-radius: 16px;
+  background-color:#f8f9fd ;
+  padding: 16px;
+  border: 1px solid #e1eaf9;
+  color: #a0a4bc;
+}
+.login-modal-left{
+  width: 50%;
+  background-color: #f5f8fd;
+}
+.login-modal-left > img{
+  width: 88% ;
+}
+.btn-login{
+  width: 200px;
+  height: 52px;
+  background-color: #f47a53;
+  border-color: #f47a53;
+  color: #fff;
+  border-radius: 16px;
+  font-weight: 500;
+}
